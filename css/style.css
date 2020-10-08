@@ -102,6 +102,33 @@ body {
     text-align: center;
 }
 
+.content table {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse:separate;
+    border-spacing: 5px 20px;
+}
+
+.content table th {
+    float: left;
+    text-align: left;
+}
+
+.content table td {
+    float: left;
+    text-align: left;
+}
+
+.content table tr td img {
+    width: 50%;
+}
+
+.content table tr td HR {
+    width: 900px;
+
+}
+
 /* footer */
 .footer {
     padding: 20px;
