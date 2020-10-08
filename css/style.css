@@ -1,7 +1,6 @@
 /* Global */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     background-color: whitesmoke;
     padding: 0;
     margin: 0;
@@ -21,6 +20,7 @@ body {
 .navBar {
     font-size: 17px;
     width: 100%;
+    text-align: center;
 }
 
 .navBar ul {
@@ -104,7 +104,9 @@ body {
     text-align: center;
 }
 
-.content table {
+
+
+.People, .aimAndGoals {
     width: 50%;
     margin: 0 auto;
     text-align: left;
@@ -112,23 +114,69 @@ body {
     border-spacing: 5px 20px;
 }
 
-.content table th {
+.People th, .aimAndGoals th {
     float: left;
     text-align: left;
 }
 
-.content table td {
+.People td, .aimAndGoals td{
     float: left;
     text-align: left;
 }
 
-.content table tr td img {
+.People tr td img, .aimAndGoals tr td img  {
     width: 50%;
 }
 
-.content table tr td HR {
+.People tr td HR, .aimAndGoals tr td HR {
     width: 900px;
 
+}
+
+.content .projectBackground, .projectProgress, .challengeAndLearning, .futureDevelopment, .projectProcesses {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.projectBackground img, .projectProgress img, .futureDevelopment img{
+    width: 30%;
+}
+
+.scope {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.scope th, .scope td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.scope th{
+    padding: 5px;
+    text-align: center;
+}
+
+.scope td{
+    padding: 5px;
+    text-align: left;
+}
+
+.challengeAndLearning, .projectProcesses {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.challengeAndLearning ul, .projectProcesses ul {
+    text-align: left;
+}
+
+.challengeAndLearning ul li, .projectProcesses ul li{
+    text-align: left;
+    font-weight: bold;
 }
 
 /* footer */
