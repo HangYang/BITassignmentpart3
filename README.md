@@ -1,1 +1,19 @@
-# BITassignmentpart3
+# COSC2625 Building IT System 
+
+# Assignment Part3
+
+# Group: AR-TH-930-HD
+
+## Memebrs: 
+* Baiwei Liu (s3778909)
+* Yitao Ma (s3843689)
+* Xin Lin (s3710267)
+* Yuxiang Huang (s3751476)
+* Wenlao Peng (s3690691)
+* Hang Yang (s3799719)
+
+## Records:
+* Figma: https://www.figma.com/file/K8pWbxZCS24jjG4ansa39v/HD-Games?node-id=0%3A1
+* Microsoft Team: 
+* Git Repository: https://github.com/HangYang/BITassignmentpart3
+* Google Doc: https://docs.google.com/document/d/1b7gbR_jI4Y-cEK342yQkxLB90aRe2XgWiRu1zbYaulk/edit?usp=sharing
