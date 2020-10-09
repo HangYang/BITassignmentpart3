@@ -104,9 +104,7 @@ body {
     text-align: center;
 }
 
-
-
-.People, .aimAndGoals {
+.People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs {
     width: 50%;
     margin: 0 auto;
     text-align: left;
@@ -114,21 +112,21 @@ body {
     border-spacing: 5px 20px;
 }
 
-.People th, .aimAndGoals th {
+.People th, .aimAndGoals th, .outcomeToDate th, .extendedViableFeatures th, .toolsAndTechnologies th, .skillsAndJobs th {
     float: left;
     text-align: left;
 }
 
-.People td, .aimAndGoals td{
+.People td, .aimAndGoals td, .outcomeToDate td, .extendedViableFeatures td, .toolsAndTechnologies td, .skillsAndJobs td {
     float: left;
     text-align: left;
 }
 
-.People tr td img, .aimAndGoals tr td img  {
+.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img {
     width: 50%;
 }
 
-.People tr td HR, .aimAndGoals tr td HR {
+.People tr td HR, .aimAndGoals tr td HR, .outcomeToDate tr td HR, .extendedViableFeatures tr td HR, .toolsAndTechnologies tr td HR, .skillsAndJobs tr td HR {
     width: 900px;
 
 }
@@ -143,24 +141,24 @@ body {
     width: 30%;
 }
 
-.scope {
+.scope, .progress {
     width: 50%;
     margin: 0 auto;
     text-align: left;
     border-collapse: collapse;
 }
 
-.scope th, .scope td {
+.scope th, .scope td, .progress th, .progress td{
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-.scope th{
+.scope th, .progress th {
     padding: 5px;
     text-align: center;
 }
 
-.scope td{
+.scope td, .progress td {
     padding: 5px;
     text-align: left;
 }
