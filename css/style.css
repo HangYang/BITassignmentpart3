@@ -141,24 +141,24 @@ body {
     width: 30%;
 }
 
-.scope, .progress {
+.scope, .progress, .meeting, .gitHub, .trello {
     width: 50%;
     margin: 0 auto;
     text-align: left;
     border-collapse: collapse;
 }
 
-.scope th, .scope td, .progress th, .progress td{
+.scope th, .scope td, .progress th, .progress td, .meeting th, .meeting td, .gitHub th, .gitHub td, .trello th, .trello td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-.scope th, .progress th {
+.scope th, .progress th, .meeting th, .gitHub th, .trello th {
     padding: 5px;
     text-align: center;
 }
 
-.scope td, .progress td {
+.scope td, .progress td, .meeting td, .gitHub td, .trello td {
     padding: 5px;
     text-align: left;
 }
