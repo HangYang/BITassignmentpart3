@@ -104,7 +104,7 @@ body {
     text-align: center;
 }
 
-.People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs {
+.People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs, .scopeCreep, .description, .windFall, .motivation {
     width: 50%;
     margin: 0 auto;
     text-align: left;
@@ -112,21 +112,21 @@ body {
     border-spacing: 5px 20px;
 }
 
-.People th, .aimAndGoals th, .outcomeToDate th, .extendedViableFeatures th, .toolsAndTechnologies th, .skillsAndJobs th {
+.People th, .aimAndGoals th, .outcomeToDate th, .extendedViableFeatures th, .toolsAndTechnologies th, .skillsAndJobs th, .scopeCreep th, .description th, .windFall th, .motivation th {
     float: left;
     text-align: left;
 }
 
-.People td, .aimAndGoals td, .outcomeToDate td, .extendedViableFeatures td, .toolsAndTechnologies td, .skillsAndJobs td {
+.People td, .aimAndGoals td, .outcomeToDate td, .extendedViableFeatures td, .toolsAndTechnologies td, .skillsAndJobs td, .scopeCreep td, .description td, .windFall td, .motivation td {
     float: left;
     text-align: left;
 }
 
-.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img {
+.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .windFall tr td img, .motivation tr td img {
     width: 50%;
 }
 
-.People tr td HR, .aimAndGoals tr td HR, .outcomeToDate tr td HR, .extendedViableFeatures tr td HR, .toolsAndTechnologies tr td HR, .skillsAndJobs tr td HR {
+.People tr td HR, .aimAndGoals tr td HR, .outcomeToDate tr td HR, .extendedViableFeatures tr td HR, .toolsAndTechnologies tr td HR, .skillsAndJobs tr td HR, .scopeCreep tr td HR, .description tr td HR, .windFall tr td HR, .motivation tr td HR {
     width: 900px;
 
 }
