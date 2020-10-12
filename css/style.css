@@ -104,6 +104,14 @@ body {
     text-align: center;
 }
 
+.content video {
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+    z-index: -100;
+    position: relative;
+}
+
 .People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs, .scopeCreep, .description, .windFall, .motivation {
     width: 50%;
     margin: 0 auto;
