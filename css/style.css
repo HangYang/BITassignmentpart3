@@ -4,6 +4,7 @@ body {
     background-color: whitesmoke;
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 /* header */
@@ -130,7 +131,7 @@ body {
     text-align: left;
 }
 
-.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .windFall tr td img, .motivation tr td img {
+.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .motivation tr td img {
     width: 50%;
 }
 
@@ -150,7 +151,7 @@ body {
 }
 
 .scope, .progress, .meeting, .gitHub, .trello {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: left;
     border-collapse: collapse;
