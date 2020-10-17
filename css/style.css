@@ -1,7 +1,7 @@
 /* Global */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0;
     margin: 0;
     font-size: 20px;
@@ -74,6 +74,7 @@ body {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
 }
 
 .navBar .dropdown-content a {
@@ -110,12 +111,10 @@ body {
 .content video {
     margin: 0 auto;
     width: 80%;
-    height: 50%;
-    z-index: -100;
     position: relative;
 }
 
-.People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs, .scopeCreep, .description, .windFall, .motivation {
+.People, .aimAndGoals, .outcomeToDate, .extendedViableFeatures, .toolsAndTechnologies, .skillsAndJobs, .scopeCreep, .description, .windFall, .motivation, .testing {
     width: 50%;
     margin: 0 auto;
     text-align: left;
@@ -128,12 +127,25 @@ body {
     text-align: left;
 }
 
+.testing th {
+    text-align: center;
+}
+
+.testing td {
+    text-align: center;
+}
+
+
+.testing tr td HR {
+    width: 900px;
+}
+
 .People td, .aimAndGoals td, .outcomeToDate td, .extendedViableFeatures td, .toolsAndTechnologies td, .skillsAndJobs td, .scopeCreep td, .description td, .windFall td, .motivation td {
     float: left;
     text-align: left;
 }
 
-.People tr td img, .aimAndGoals tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .motivation tr td img {
+.People tr td img, .aimAndGoals tr td img, .extendedViableFeatures tr td img,  .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .motivation tr td img {
     width: 50%;
 }
 
@@ -142,8 +154,10 @@ body {
 
 }
 
-.outcomeToDate tr td img {
+.outcomeToDate tr td img, .toolsAndTechnologies tr td img {
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .content .projectBackground, .projectProgress, .challengeAndLearning, .futureDevelopment, .projectProcesses {
