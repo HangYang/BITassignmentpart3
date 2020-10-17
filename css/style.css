@@ -11,11 +11,13 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: transparent;
+    background-color: #333;
+
 }
 
 .header h1 {
     font-size: 50px;
+    color: whitesmoke;
 }
 
 .navBar {
@@ -131,13 +133,17 @@ body {
     text-align: left;
 }
 
-.People tr td img, .aimAndGoals tr td img, .outcomeToDate tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .motivation tr td img {
+.People tr td img, .aimAndGoals tr td img, .extendedViableFeatures tr td img, .toolsAndTechnologies tr td img, .skillsAndJobs tr td img, .scopeCreep tr td img, .description tr td img, .motivation tr td img {
     width: 50%;
 }
 
 .People tr td HR, .aimAndGoals tr td HR, .outcomeToDate tr td HR, .extendedViableFeatures tr td HR, .toolsAndTechnologies tr td HR, .skillsAndJobs tr td HR, .scopeCreep tr td HR, .description tr td HR, .windFall tr td HR, .motivation tr td HR {
     width: 900px;
 
+}
+
+.outcomeToDate tr td img {
+    width: 100%;
 }
 
 .content .projectBackground, .projectProgress, .challengeAndLearning, .futureDevelopment, .projectProcesses {
